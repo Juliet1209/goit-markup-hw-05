@@ -51,7 +51,7 @@
         <section class="main-bcg">
             <div class=" container">
                 <h1 class="main-text">Эффективные решения для вашего бизнеса</h1>
-                <button class="main-btn btn" type="button">Заказать услугу</button>
+                <button class="main-btn btn" type="button" data-modal-open>Заказать услугу</button>
         </div></section>
         
 
@@ -105,9 +105,19 @@
             <div class=" container">
             <h2 class="wedo">Чем мы занимаемся</h2>
             <ul class="wedo-img wedo-list list">
-                <li class="wedowedo"><img src="./images/box1.jpg" alt="компьютер-1" width="370"></li>
-                <li class="wedowedo" ><img src="./images/box2.jpg" alt="компьютер-2" width="370"></li>
-                <li class="wedowedo"><img src="./images/box3.jpg" alt="компьютер-3" width="370"></li>
+                <li class="wedowedo"><img src="./images/box1.jpg" alt="компьютер-1" width="370">
+                
+                    <p class="wedo-overlay">десктопные приложения
+                    </p></li>
+                
+                <li class="wedowedo" ><img src="./images/box2.jpg" alt="компьютер-2" width="370">
+                    <p class="wedo-overlay">мобильные приложения
+                </p>
+                </li>
+                <li class="wedowedo"><img src="./images/box3.jpg" alt="компьютер-3" width="370">
+                    <p class="wedo-overlay">дизайнерские решения
+                </p>
+                </li>
             </ul>
 
             </div>
@@ -327,6 +337,17 @@
         </div>
         </div>
     </footer>
+
+<div class="backdrop" data-modal>
+    <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+            <svg class="modal-icon" width="15" height="15">
+                <use href="./images/icons.svg#icon1-cross"></use></svg></button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
+
 </body>
 
 </html>
