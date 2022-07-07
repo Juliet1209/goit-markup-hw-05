@@ -575,7 +575,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: absolute;
 top: 0;
 left: 0;
-transform: translateY(100%);
+transform: translateY(135%);
 display: flex;
 height: 294px;
 align-items: center;
@@ -688,7 +688,7 @@ color: #ffffff ;
 .footer-social{
 display: flex;
 justify-content: center;
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -773,7 +773,7 @@ fill: #ffffff;
     }
     
 .modal-icon{
-    fill: #757575;
+    fill: #a3a2a2;
 }
 
     .modal {
